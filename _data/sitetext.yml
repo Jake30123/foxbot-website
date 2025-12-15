@@ -17,25 +17,25 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Project Goals"
+    text: "System level goals for the Fox-Bot project."
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Cute"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        icon: assets/img/icons/cake.webp
+      - title: "Interactive"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        icon: assets/img/icons/dog.webp
+      - title: "Advanced"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: assets/img/icons/pi.jpg
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Project Breakdown"
+    text: "A detailed overview of each section of the project."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close Overview"
 
   timeline:
     title: "Timeline"
