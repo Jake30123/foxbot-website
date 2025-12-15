@@ -36,6 +36,12 @@ en: &DEFAULT_EN
     text: "A detailed overview of each section of the project."
     section: portfolio
     closebutton: "Close Overview"
+  
+  portfolio2:
+    title: "Project Breakdown"
+    text: "A detailed overview of each section of the project."
+    section: portfolio2
+    closebutton: "Close Overview"
 
   timeline:
     title: "Timeline"
@@ -69,9 +75,13 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About the Group"
+    text: "Who are the great engineers behind the fox-bot?"
+    body: "We are a group of sophomore engineers from Olin College of Engineering. This project was part of our Principles of Integrated
+    Engineering course (PIE). Our objective was to make a cute, interactive, and advanced robot that would act as the dorm
+    pet we are all forbidden. This website is designed to be showcase and document all of our work through the course of the 
+    semester on the foxbot."
+
     section: about
 
   clients:

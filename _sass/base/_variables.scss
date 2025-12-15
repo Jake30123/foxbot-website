@@ -10,3 +10,20 @@ $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
+
+// --------------------------------------------------
+// COLORS
+// --------------------------------------------------
+
+// By defining this here, we override the default yellow.
+// Change #e67e22 to whatever hex color you want!
+$primary: #796bf9; 
+
+// You can also override other status colors if you wish:
+$secondary: $gray-700;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: $gray-100;
+$dark: $gray-800;
