@@ -13,9 +13,9 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-    - title: "Portfolio"
+    - title: "Design Process"
       section: portfolio
-    - title: "Portfolio2"
+    - title: "System Diagrams"
       section: portfolio2
     - title: "About"
       section: about
@@ -23,10 +23,6 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Team"
       section: team
-    - title: "Contact"
-      section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 
 en-001: #English (World)
   <<: *DEFAULT_EN
