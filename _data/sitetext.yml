@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Welcome to our PIE final project!
+    text: Fox-Bot
+    button: Learn More
     buttonlink: "#services"
 
   services:
@@ -93,13 +93,13 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "The Fox-Bot Team"
+    text: "The brains behind our furry friend."
+    subtext: The team was split up into three sub-teams, electrical, mechanical, and software. All members contributed to integration.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Tamás Regan"
+        role: "Mechanical"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -108,8 +108,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Sarah Brau"
+        role: "Mechanical"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -118,8 +118,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Pepper Wang"
+        role: "Software"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -128,7 +128,22 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-
+      - name: "Yunzhu Chen"
+        role: "Software"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://google.com
+            icon: fas fa-globe
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Jake Hamilton"
+        role: "Electrical"
+        image: assets/img/team/5.jpg
+        social:
+          - url: https://www.jake-hamilton.com
+            icon: fas fa-globe
+          - url: https://www.linkedin.com/in/james-keller-hamilton-2593b1328/
+            icon: fab fa-linkedin-in
   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
