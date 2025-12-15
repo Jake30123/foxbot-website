@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "About"
+      section: about
+    - title: "Project Goals"
       section: services
     - title: "Design Process"
       section: portfolio
     - title: "System Diagrams"
       section: portfolio2
-    - title: "About"
-      section: about
     - title: "Team"
       section: team
 
