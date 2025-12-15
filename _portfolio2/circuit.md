@@ -1,14 +1,17 @@
 ---
 title: Circuit Diagram
 subtitle: A circuit diagram of the Fox-Bot. 
-image: assets/img/portfolio2/energy-data.jpg
+image:
 alt: 
 
 caption:
   title: Circuit Diagram
   subtitle: A circuit diagram of the Fox-Bot.
-  thumbnail: assets/img/portfolio2/energy-data.jpg
+  thumbnail: assets/img/portfolio2/kicad.png
 ---
 
-This diagram shows the energy and data flow throughout the Fox-Bot robot. It is oriented in a birds eye view with the tail towards the top and eyes towards the bottom. 
+<iframe src="/assets/img/portfolio2/schem.pdf" width="100%" height="500px" style="border:none;">
+  <p>Your browser does not support PDFs. <a href="your-document.pdf">Download the PDF</a> instead.</p>
+</iframe>
+
 

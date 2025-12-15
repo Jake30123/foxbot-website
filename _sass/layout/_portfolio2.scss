@@ -29,7 +29,7 @@
           height: 20px;
           margin-top: -12px;
           text-align: center;
-          color: white;
+          color: rgb(255, 255, 255);
           i {
             margin-top: -12px;
           }
@@ -45,7 +45,7 @@
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: $white;
+      background-color: rgb(220, 219, 219);
       h4 {
         margin: 0;
         text-transform: none;
@@ -77,7 +77,7 @@
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
@@ -135,6 +135,86 @@
         transform: rotate(90deg);
         background-color: $gray-900;
       }
+    }
+  }
+}
+#portfolio2.page-section {
+  background-color: #c2c3c6 !important; /* A dark slate blue */
+}
+/* Make code blocks in portfolio modals full-width */
+.portfolio-modal pre {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Optional: Remove rounded corners for a clean edge-to-edge look */
+  border-radius: 0; 
+}
+
+/* VS Code Light+ Theme for Jekyll/Rouge */
+.portfolio2-modal {
+
+  /* 1. The Container (VS Code Light Editor Background) */
+  .highlighter-rouge pre, 
+  .highlighter-rouge .highlight {
+    background-color: #ffffff;  /* Pure white background */
+    color: #000000;             /* Default text color (black) */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    border: 1px solid #e1e4e8;  /* Light grey border for separation */
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05); /* Optional subtle inner shadow */
+  }
+
+  /* 2. The Syntax Highlighting (VS Code Light Colors) */
+  .highlighter-rouge {
+    
+    /* Comments - Green */
+    .c, .cm, .c1, .cs { 
+      color: #008000; 
+      font-style: italic;
+    }
+
+    /* Keywords (int, void, const) - Blue */
+    .k, .kd, .kp, .kr, .kt { 
+      color: #0000ff; 
+    }
+    
+    /* Control Flow (if, else, return) - Purple */
+    .cf {
+        color: #af00db; 
+    }
+
+    /* Functions (setup, loop, analogRead) - Olive/Gold */
+    .nf, .fm { 
+      color: #795e26; 
+    }
+
+    /* Strings ("Hello World") - Red/Brown */
+    .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { 
+      color: #a31515; 
+    }
+
+    /* Numbers (128, 0, 9600) - Dark Green */
+    .m, .mb, .mf, .mh, .mi, .il, .mo { 
+      color: #098658; 
+    }
+
+    /* Built-in / Macros / Preprocessor (#define, Serial) - Teal/Purple */
+    .nb, .no, .nv {
+        color: #267f99; /* Teal for classes/types like Serial */
+    }
+    .cp {
+        color: #af00db; /* Purple for preprocessor like #include */
+    }
+    
+    /* Operators (=, +, -) - Black */
+    .o, .ow {
+        color: #000000;
     }
   }
 }

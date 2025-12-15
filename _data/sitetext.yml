@@ -38,8 +38,8 @@ en: &DEFAULT_EN
     closebutton: "Close Overview"
   
   portfolio2:
-    title: "System Diagrams"
-    text: "Diagrams of multiple high and low level systems."
+    title: "System Diagram/Descriptions"
+    text: "Diagrams/descriptions of multiple high and low level systems."
     section: portfolio2
     closebutton: "Close Diagram"
 
