@@ -104,8 +104,8 @@ en: &DEFAULT_EN
 
   team:
     title: "The Fox-Bot Team"
-    text: "The brains behind our furry friend."
-    subtext: The team was split up into three sub-teams, electrical, mechanical, and software. All members contributed to integration.
+    text: "The team was split up into three sub-teams, electrical, mechanical, and software. All members contributed to integration."
+    subtext: 
     section: team
     people:
       - name: "Tamás Regan"
