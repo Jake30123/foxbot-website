@@ -43,9 +43,23 @@ Running both machine learning processes and computer vision at once requires a l
 The Raspberry Pi 5 cannot directly control and power servos or motors so we needed an intermediate to facilitate this control. In earlier PIE projects we learned how to use Arduino's and Adafruit Motor Shields, and since fancy motor control was not in the scope of the project or in our learning goals we opted to continue with this method of control. PIE also has a spare motor shield we could borrow which made it an easy choice given that our team also had multiple Arduino R4s are our disposal at the beggining (*foreshadowing*). 
 
 ##### System Power
-All the components we selected have to now be powered. All together, the power draw of the system is as follows:
+All the components we selected have to now be powered. All together, the *max* power draw of the system is as follows:
 
-Raspberry Pi 5 = 15W (3A @ 5V)
-Arduino Uno R4 Minima = 0.5W (90mA @ 5V)
-Three Servos = 3W (600mA @ 5V)
-Two 8x8 Matrix Displays
+Raspberry Pi 5 = 15W (3A @ 5V) <br>
+Arduino Uno R4 Minima = 0.5W (90mA @ 5V) <br>
+Three Servos = 3W (600mA @ 5V) <br>
+Two 8x8 Matrix Displays = 3W (600mA @ 5V) <br>
+Two 12V Drive Motors = 72W (6A @ 12V) <br>
+
+**Total 5V = 4.29A *Needs to be stepped down from 12v*** <br>
+**Total 12V = 2.4A *Including 12V converter theoretical draw***
+
+We had a 12V battery easily at our disposal from PIE stock. It was a 12V 2.2AH Li-Po battery that has seen better days (*foreshadowing #2*). Also, we needed a 12V system anyway to power the motors.
+
+We found buck converters in the electrical stock room that could only supply 3A max, meaning that at full draw our robot would be power limited. Also, the Raspberry Pi 5 is incredibly sensitive to power fluctuations (*foreshadowing #3*) so having a dedicated buck converter makes the system more reliable and cleaner. So we ended up with a 12V battery and 2 buck converters to power the entire robot.
+
+#### Initial Work/Integration
+
+
+
+
