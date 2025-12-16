@@ -100,4 +100,12 @@ Here is what the final electrical system looks like with all of the wire managem
 #### Firmware Development
 Firmware also fell under the electrical umbrella. Please see the firmware page on the website for details on the development. 
 
+#### The Li-Po Fiasco
+The battery powering our dear furry friend was a 12V Li-Po battery that was in PIE stock. We found it with a small amount bulge but it was within safe levels. This battery served us for a couple weeks before we left the robot plugged in all night. This completely drained the battery causing. In the morning we charged the battery again causing it to inflate a great deal more to highly unsafe levels (enough that the entire PIE teaching team was concerned). We unfortunately had to dispose of our trusty battery with the shop. 
+
+The PIE team offered to buy our team a new battery since safety comes above budget so huge shout out to all of them. Thank you for making our project possible. But for a while we were relegated to power supply testing for our software/hardware integration.
+
+<img src="assets/img/portfolio/sleeve.jpg" alt="Fox-Bot wires in wire sleeve" width="100%" /><br>
+
+
 
