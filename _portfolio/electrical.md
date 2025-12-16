@@ -105,7 +105,7 @@ The battery powering our dear furry friend was a 12V Li-Po battery that was in P
 
 The PIE team offered to buy our team a new battery since safety comes above budget so huge shout out to all of them. Thank you for making our project possible. But for a while we were relegated to power supply testing for our software/hardware integration.
 
-<img src="assets/img/portfolio/sleeve.jpg" alt="Fox-Bot wires in wire sleeve" width="100%" /><br>
+<img src="assets/img/portfolio/supply.jpg" alt="Fox-Bot hooked up to a power supply" width="100%" /><br>
 
 
 
