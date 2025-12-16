@@ -1,12 +1,12 @@
 ---
 title: Electrical
-subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: Electrical design process and justification
 image: assets/img/portfolio/electrical.jpg
 alt: Keep Exploring
 
 caption:
   title: Electrical
-  subtitle: Electrical Design Justification
+  subtitle: Electrical design process and justification
   thumbnail: assets/img/portfolio/electrical.jpg
 ---
 
