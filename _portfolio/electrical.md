@@ -93,11 +93,11 @@ It was incredibly important to our electrical team member that the system be qui
 
 To fix this issue we unsoldered all of the wires and made all of them the correct length as well as switching to silicone sleeved wire instead of PVC for easy of routing. We then added wire wrap and head shrink to all necessary connections and routed the wires for minimal length on power wires.
 
-<img 
-  src="{{ '/assets/img/portfolio/sleeve.jpg' | relative_url }}" 
-  alt="A closeup photo of the Fox-Bot's articulated ears."
-  width="800"
-  class="img-fluid"><br>
+<img src="assets/img/portfolio/sleeve.jpg" alt="Fox-Bot wires in wire sleeve" width="100%" /><br>
 
+Here is what the final electrical system looks like with all of the wire management. 
+
+#### Firmware Development
+Firmware also fell under the electrical umbrella. Please see the firmware page on the website for details on the development. 
 
 

@@ -79,7 +79,8 @@ The Arduino is connected to an Adafruit v3 motor shield to allow the Arduino to 
 #include <Servo.h>
 #include <LedControl.h>
 ```
-
+<br>
+*Note: IDE is also required to efficiently edit and flash Arduino code.*
 
 #### Full Firmware
 
