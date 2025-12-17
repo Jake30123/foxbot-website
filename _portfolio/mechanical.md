@@ -20,3 +20,5 @@ optional info list (delete if not using):
 - Client: 
 - Category: 
 
+Tamas test
+
