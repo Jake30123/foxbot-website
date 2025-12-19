@@ -16,13 +16,18 @@ en: &DEFAULT_EN
     button: Learn More
     buttonlink: "#services"
 
-  services:
-    title: "Project Goals"
+  about:
+    title: "About the Project"
+    text: "Who are the great engineers behind the fox-bot?"
+    body: "We are a group of sophomore engineers from Olin College of Engineering. This project was part of our Principles of Integrated
+    Engineering course (PIE). Our objective was to make a cute, interactive, and advanced robot that would act as the dorm
+    pet we are all forbidden. This website is designed to be showcase and document all of our work through the course of the 
+    semester on the foxbot."
+
     text: "System level goals for the Fox-Bot project."
-    section: services
     list:
       - title: "Cute"
-        desc: "One of our main objectives for this project was to make something cute, silly, and charming. We took inspiration from a character from the game Honkai: Star Rail."
+        desc: "Inspired by the cat cakes from Honkai: Star rail, we decided to make a fun and whimsical fox cake."
         icon: assets/img/icons/cake.webp
       - title: "Interactive"
         desc: "In order to make the robot feel like a real pet, we wanted to be able to interact with it in ways such as petting it, playing music, or talking to it, and have it respond."
@@ -30,6 +35,27 @@ en: &DEFAULT_EN
       - title: "Advanced"
         desc: "We wanted to create an integrated system with mechanical, electrical, and software components."
         icon: assets/img/icons/pi.jpg
+
+    section: about
+
+  services:
+    title: "Foxbot Demonstration"
+    text: "Pictures and videos of our robot behaviors."
+    list:
+      - title: "Default"
+        desc: "description"
+        icon: assets/img/demo/default.jpg
+      - title: "Chase tail"
+        desc: "description"
+        icon: assets/img/demo/default.jpg
+      - title: "Blink"
+        desc: "description"
+        icon: assets/img/demo/default.jpg
+      - title: "Petted"
+        video: "description"
+        icon: assets/img/demo/petted.mp4
+    section: services
+
 
   portfolio:
     title: "Design Process"
@@ -127,7 +153,7 @@ en: &DEFAULT_EN
             icon: fab fa-github
       - name: "Yunzhu Chen"
         role: "Software"
-        image: assets/img/team/yunzhu.png
+        image: assets/img/team/4.jpg
         social:
           - url: https://www.linkedin.com/in/yunzhu-chen-8b6823328/
             icon: fab fa-linkedin-in
