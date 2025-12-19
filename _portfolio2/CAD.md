@@ -16,7 +16,7 @@ caption:
 
 Below is a full and then subsystem level illustration and discription of the mechanical side of the Fox-Bot. We chose Onshape as the CAD software to design in because of its colaboration feature. If you are looking for more details, or wish to recreate some or all of our Fox-bot, here is the link to view our [Onshape document](https://cad.onshape.com/documents/1b48057a8a815e53d3545e9e/w/6e1c3f24dad80367486a2603/e/9e2e6a22bfb83421378f1be2)*. Most real life images are in the mechanical design process page.
 
-<img src="assets/img/portfolio2/Full CAD Rendering.jpg" alt="Full Fox-Bot Assembly" width="100%" /><br>
+<img src="assets/img/portfolio2/Full CAD Rendering.png" alt="Full Fox-Bot Assembly" width="100%" /><br>
 
 *This is a full CAD rendering of the Fox-Bot. The whole design is modular and almost all joints are either press fits or bolts. Only the castor wheels, the depth of which needed to exactly match the motorized wheels, are wood glued.*
 
