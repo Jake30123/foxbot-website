@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "About"
       section: about
-    - title: "Project Goals"
+    - title: "Foxbot Demonstration"
       section: services
     - title: "Design Process"
       section: portfolio

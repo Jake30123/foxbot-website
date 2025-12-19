@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   header:
     title: Welcome to our PIE final project!
     text: Fox-Bot
-    button: Learn More
-    buttonlink: "#services"
+    button: View Github Repository
+    buttonlink: https://github.com/yunzhuuuuu/fox-bot
 
   about:
     title: "About the Project"
@@ -140,6 +140,8 @@ en: &DEFAULT_EN
         role: "Mechanical"
         image: assets/img/team/sarah.png
         social:
+          - url: https://www.linkedin.com/in/sarah-b-198b82277/
+            icon: fab fa-linkedin-in
       - name: "Pepper Wang"
         role: "Software"
         image: assets/img/team/pepper.jpg

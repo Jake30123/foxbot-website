@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Mechanical
-  subtitle: subtitle
+  subtitle: Mechanical design process and justification
   thumbnail: assets/img/portfolio/Mechanical Design Icon.JPG
   
 #what displays when the item is clicked:
 title: Mechanical
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+subtitle: Our design process laid bare
 image: assets/img/portfolio/Original Drawing.JPG #main image, can be a link or a file in assets/img/portfolio
 alt: Keep Exploring
 

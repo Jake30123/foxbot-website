@@ -27,7 +27,6 @@ The core module that controls the robot is the behaviors class, which:
 - Sets the values of motor speed, ear and tail servo positions, and eye display matrices
 - Converts these values to bytes and return a packet with expected format by the Arduino  
 
-Code:
 ***
 
 self.left_speed = 0  # -128 - 127   
