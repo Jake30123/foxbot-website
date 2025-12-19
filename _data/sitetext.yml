@@ -13,16 +13,18 @@ en: &DEFAULT_EN
   header:
     title: Welcome to our PIE final project!
     text: Fox-Bot
-    button: View Github Repo
-    buttonlink: "https://github.com/yunzhuuuuu/fox-bot"
+    button: Learn More
+    buttonlink: "#services"
 
   about:
     title: "About the Project"
-    intro_text: "Who are the great engineers behind the fox-bot? What are system level goals for this project?"
-    body: "We are a group of sophomore engineers from Olin College of Engineering. This project was part of our Principles of Integrated 
-    Engineering(PIE) course. Our objective was to make a cute, interactive, and advanced robot that would act as the dorm pet we are all 
-    forbidden. This website is designed to be showcase and document all of our work through the course of the semester on the fox-bot."
-    title: 
+    text: "Who are the great engineers behind the fox-bot?"
+    body: "We are a group of sophomore engineers from Olin College of Engineering. This project was part of our Principles of Integrated
+    Engineering course (PIE). Our objective was to make a cute, interactive, and advanced robot that would act as the dorm
+    pet we are all forbidden. This website is designed to be showcase and document all of our work through the course of the 
+    semester on the foxbot."
+
+    text: "System level goals for the Fox-Bot project."
     list:
       - title: "Cute"
         desc: "Inspired by the cat cakes from Honkai: Star Rail, we decided to make a fun and whimsical fox cake."
