@@ -1,7 +1,7 @@
 ---
 title: Circuit Diagram
 subtitle: A circuit diagram of the Fox-Bot and electrical components list. 
-image:
+image: assets/img/portfolio2/circuit_diagram.svg
 alt: 
 
 caption:
@@ -9,9 +9,6 @@ caption:
   subtitle: A circuit diagram of the Fox-Bot.
   thumbnail: assets/img/portfolio2/kicad.png
 ---
-<iframe src="/assets/img/portfolio2/schem.pdf" width="100%" height="500px" style="border:none;">
-  <p>Your browser does not support PDFs. <a href="your-document.pdf">Download the PDF</a> instead.</p>
-</iframe>
 
 Notes:
 - The buck converters depicted in the circuit diagram were acquired from the electrical stock room in fully populated PCB form. A full schematic was not available so ours is an approximation. 

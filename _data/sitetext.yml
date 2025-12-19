@@ -27,10 +27,10 @@ en: &DEFAULT_EN
     text: "System level goals for the Fox-Bot project."
     list:
       - title: "Cute"
-        desc: "Inspired by the cat cakes from Honkai: Star rail, we decided to make a fun and whimsical fox cake."
+        desc: "Inspired by the cat cakes from Honkai: Star Rail, we decided to make a fun and whimsical fox cake."
         icon: assets/img/icons/cake.webp
       - title: "Interactive"
-        desc: "In order to make the robot feel like a real pet, we wanted to be able to interact with it in ways such as petting it, playing music, or talking to it, and have it respond."
+        desc: "In order to make the robot feel like a real pet, we wanted to be able to interact with it in ways such as petting it or playing music, and have it respond."
         icon: assets/img/icons/dog.webp
       - title: "Advanced"
         desc: "We wanted to create an integrated system with mechanical, electrical, and software components."
@@ -43,17 +43,23 @@ en: &DEFAULT_EN
     text: "Pictures and videos of our robot behaviors."
     list:
       - title: "Default"
-        desc: "description"
-        icon: assets/img/demo/default.jpg
+        desc: "Eyes and ears neutral, no movement"
+        icon: assets/img/demo/default.gif
       - title: "Chase tail"
-        desc: "description"
-        icon: assets/img/demo/default.jpg
-      - title: "Blink"
-        desc: "description"
-        icon: assets/img/demo/default.jpg
+        desc: "Tail to the right and spin to the right, eyes get dizzy, blink"
+        icon: assets/img/demo/chasetail.gif
       - title: "Petted"
-        video: "description"
-        icon: assets/img/demo/petted.mp4
+        desc: "Ears move, eyes happy"
+        icon: assets/img/demo/petted.gif
+      - title: "Look Around"
+        desc: "Turn slightly right, turn slightly left, move forward"
+        icon: assets/img/demo/lookaround.gif
+      - title: "Follow Treat"
+        desc: "Heart eyes, detect and follow berry, get angry after a period of time if not petted"
+        icon: assets/img/demo/lookforberry.gif
+      - title: "Sleep"
+        desc: "Closed eyes, ears inward"
+        icon: assets/img/demo/lookforberry.gif
     section: services
 
 
