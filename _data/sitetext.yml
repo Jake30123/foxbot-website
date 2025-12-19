@@ -52,18 +52,18 @@ en: &DEFAULT_EN
       - title: "Chase tail"
         desc: "Tail to the right and spin to the right, eyes get dizzy, blink"
         icon: assets/img/demo/chasetail.gif
-      - title: "Petted"
-        desc: "Ears move, eyes happy"
-        icon: assets/img/demo/petted.gif
       - title: "Look Around"
         desc: "Turn slightly right, turn slightly left, move forward"
         icon: assets/img/demo/lookaround.gif
+      - title: "Petted"
+        desc: "Ears move, eyes happy (triggered by button)"
+        icon: assets/img/demo/petted.gif
       - title: "Follow Treat"
-        desc: "Heart eyes, detect and follow berry, get angry after a period of time if not petted"
+        desc: "Heart eyes, detect and follow berry, get angry after a period of time if not petted (triggered by melody)"
         icon: assets/img/demo/lookforberry.gif
       - title: "Sleep"
-        desc: "Closed eyes, ears inward"
-        icon: assets/img/demo/lookforberry.gif
+        desc: "Closed eyes, ears inward (triggered by darkness)"
+        icon: assets/img/demo/sleep.gif
     section: services
 
 
