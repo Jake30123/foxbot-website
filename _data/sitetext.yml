@@ -20,11 +20,15 @@ en: &DEFAULT_EN
     title: "About the Project"
     text: "Who are the great engineers behind the fox-bot?"
     body: "We are a group of sophomore engineers from Olin College of Engineering. This project was part of our Principles of Integrated
-    Engineering course (PIE). Our objective was to make a cute, interactive, and advanced robot that would act as the dorm
-    pet we are all forbidden. This website is designed to be showcase and document all of our work through the course of the 
-    semester on the foxbot."
+      Engineering course (PIE). Our objective was to make a cute, interactive, and advanced robot that would act as the dorm
+      pet we are all forbidden. This website is designed to be showcase and document all of our work through the course of the 
+      semester on the foxbot."
 
-    text: "System level goals for the Fox-Bot project."
+    text: "Our team was formed around the shared desire to design for fun and whimsy rather than technical specifications, and to design a robot around an animal that could interact with users and the environment. These learning goals drove the inspiration behind Vixie. He is our Fox-Bot. We decided on a fox as the animal to design around, because it was more unique than a dog or cat, but still recognizable and cute. This informed the design decisions to add eyes, ears, and a tail, and of course the fur that covers it all. One good direction that we went in to accomplish the fun and whimsical aspects of Vixie was to make references to video games many of us enjoyed. This informed the robots squat cylindrical design, which references a creature in the turn based RPG game, Honkai: Star Rail called a Cat Cake."
+    image: assets/img/Cat Cake.png
+    text: "The two biggest features of Vixie that aren't visually apparent are as follows. One, he is equipped with a camera and microphone (mounted in his nose). Whenever the microphone picks up an audio signal that matches that of the Beastling Call, it will respond. The Beastling Call is a melody that the protagonist in Hollow Knight: Silksong (a new metroidvania that one member was obsessed with) plays to attract small creatures to come to her. This was the inspiration behind Vixie's audio processing capabilities. What is this “response”? Vixie will spin until the camera (using computer vision) tracks the color of a prop created by the team. This prop was designed after the Minecraft sweet berry, a favorite food of Minecraft foxes."
+    image: assets/img/portafolio/MC Sweet Berry.jpg
+    text: "The second feature focuses solely on the engagement with the environment learning goal, and it is that there is a large (very sensitive) button on the top of Vixie’s head, so that when he is pet there will be a physical response. Lastly, Vixie has a few simple idle states, such as sleeping when the environment gets dark enough and occasionally chasing its own tail when there are no environmental inputs."
     list:
       - title: "Cute"
         desc: "Inspired by the cat cakes from Honkai: Star Rail, we decided to make a fun and whimsical fox cake."
@@ -132,7 +136,7 @@ en: &DEFAULT_EN
     people:
       - name: "Tamás Regan"
         role: "Mechanical"
-        image: assets/img/team/tamas.png
+        image: assets/img/team/Tamas_Picture.jpeg
         social:
           - url: https://www.linkedin.com/in/tam%C3%A1sregan/
             icon: fab fa-linkedin-in
