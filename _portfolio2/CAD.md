@@ -5,7 +5,7 @@ image:
 alt: 
 
 caption:
-  title: Mechanical Diagram
+  title: Detailed Mechanical Overview
   subtitle: A mechanical diagram of the Fox-Bot broken down by subsystem.
   thumbnail: assets/img/portfolio2/onshape.png
 ---
