@@ -1,19 +1,20 @@
 ---
 title: Software
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+subtitle: Software design process and justification
+image: assets/img/portfolio/softwarethumbnail.png
+alt: Keep Exploring
 
 caption:
   title: Software
-  subtitle: Illustration
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
+  subtitle: Software design process and justification
+  thumbnail: assets/img/portfolio/softwarethumbnail.png
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Initial goals:
+- Cute and in-character behavior
+- Idle states that run when no interaction is happening
+- Recognition and response to a specific melody
+- Ability to "see" and follow a treat (a berry prop made of painted plywood)
+- Response to darkness
 
-{:.list-inline}
-
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+We chose to use Python because of its ease of use and many libraries. Our initial basic code structure was the following:
