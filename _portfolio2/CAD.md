@@ -1,5 +1,5 @@
 ---
-title: Mechanical CAD Diagram
+title: Detailed Mechanical Overview
 subtitle: A mechanical diagram of the Fox-Bot. 
 image:
 alt: 
