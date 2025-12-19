@@ -22,13 +22,13 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "Cute"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "One of our main objectives for this project was to make something cute, silly, and charming. We took inspiration from a character from the game Honkai: Star Rail."
         icon: assets/img/icons/cake.webp
       - title: "Interactive"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "In order to make the robot feel like a real pet, we wanted to be able to interact with it in ways such as petting it, playing music, or talking to it, and have it respond."
         icon: assets/img/icons/dog.webp
       - title: "Advanced"
-        desc: "Your description here, full **Markdown** support"
+        desc: "We wanted to create an integrated system with mechanical, electrical, and software components."
         icon: assets/img/icons/pi.jpg
 
   portfolio:
@@ -75,12 +75,11 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About the Group"
-    text: "Who are the great engineers behind the fox-bot?"
+    title: "About the Project"
     body: "We are a group of sophomore engineers from Olin College of Engineering. This project was part of our Principles of Integrated
-    Engineering course (PIE). Our objective was to make a cute, interactive, and advanced robot that would act as the dorm
-    pet we are all forbidden. This website is designed to be showcase and document all of our work through the course of the 
-    semester on the foxbot."
+    Engineering (PIE) course. Our objective was to make a cute, interactive, and advanced robot that would act as the dorm
+    pet we are all forbidden. This website is designed to showcase and document all of our work through the course of the 
+    semester on the Fox-Bot."
 
     section: about
 
@@ -104,47 +103,33 @@ en: &DEFAULT_EN
 
   team:
     title: "The Fox-Bot Team"
-    text: "The team was split up into three sub-teams, electrical, mechanical, and software. All members contributed to integration."
+    text: "The team was split up into three sub-teams: electrical, mechanical, and software. All members contributed to integration."
     subtext: 
     section: team
     people:
       - name: "Tamás Regan"
         role: "Mechanical"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/tamas.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/tam%C3%A1sregan/
             icon: fab fa-linkedin-in
       - name: "Sarah Brau"
         role: "Mechanical"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/sarah.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
       - name: "Pepper Wang"
         role: "Software"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/pepper.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/pepper-wang-6238142a3/
             icon: fab fa-linkedin-in
+          - url: https://github.com/pepperwang197
+            icon: fab fa-github
       - name: "Yunzhu Chen"
         role: "Software"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/yunzhu.png
         social:
-          - url: https://google.com
-            icon: fas fa-globe
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/yunzhu-chen-8b6823328/
             icon: fab fa-linkedin-in
       - name: "Jake Hamilton"
         role: "Electrical"

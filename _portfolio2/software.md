@@ -1,14 +1,13 @@
 ---
 title: Software Diagram
 subtitle: A software diagram of the Fox-Bot. 
-image: assets/img/portfolio2/python.png
+image: assets/img/portfolio2/software_diagram.svg
 alt: 
 
 caption:
   title: Software Diagram
-  subtitle: A Software diagram of the Fox-Bot.
-  thumbnail: assets/img/portfolio2/python.png
+  subtitle: A software diagram of the Fox-Bot.
+  thumbnail: assets/img/portfolio2/software_diagram.svg
 ---
 
-This diagram shows the energy and data flow throughout the Fox-Bot robot. It is oriented in a birds eye view with the tail towards the top and eyes towards the bottom. 
-
+This is a diagram of the structure of the code at a high level, showing the most important classes and functions and how they connect.
